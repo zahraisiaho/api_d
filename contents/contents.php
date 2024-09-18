@@ -5,7 +5,7 @@ class contents{
 <div class="container d-flex flex-column align-items-center justify-content-center text-center">
     <div class="col-4 bg-secondary p-5 rounded">
         <h2 class="text-white">User Registration</h2>
-        <form method="post" action="">
+        <form method="post" action="processes.php">
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="username" placeholder="Enter your username" name="username" required>
                 <label for="username"><i class="fas fa-user"></i> Username</label>
@@ -23,7 +23,7 @@ class contents{
                 <label for="confirmPassword"><i class="fas fa-lock"></i> Confirm Password</label>
             </div>
             <div class="d-grid">
-                <button type="submit" class="btn btn-primary btn-lg"><i class="fas fa-user-plus"></i> Register</button>
+                <button type="submit" class="btn btn-primary btn-lg" name="reg-user">Register</button>
             </div>
         </form>
     </div>
